@@ -16,6 +16,10 @@ Supports the following voice commands:
 
 "open youtube" – Opens YouTube
 
+also open the desktop applications by "open" command
+
+also close the current window by "close" command
+
 "how are you" – Jarvis responds with a friendly message
 
 "play [song name]" – Plays music from a user-defined musicLibrary dictionary
@@ -34,5 +38,7 @@ SpeechRecognition
 PyAudio
 
 pyttsx3
+
+pyautogui
 
 musicLibrary.py (Custom module containing a dictionary of song names and their URLs)
